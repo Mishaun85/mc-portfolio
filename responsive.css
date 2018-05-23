@@ -1,0 +1,30 @@
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 749px) {
+  .img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .about {
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .img {
+    width: 40%;
+    text-align: center;
+  }
+  .about_info {
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 80px;
+
+  }
+}
