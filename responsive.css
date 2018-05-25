@@ -1,8 +1,19 @@
 .about , .project_item , .sample {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
+.project1 , .project2, .project3 {
+  order: 4;
+}
+
+@media screen and (max-width: 400px) {
+  .project_item img {
+    max-width: 90%;
+    height: auto;
+  }
+}
 
 
 @media screen and (min-width: 600px) {
@@ -10,41 +21,36 @@
     flex-wrap: nowrap;
     margin-bottom: 40px;
   }
-
   .about img {
     width: 20%;
     max-width: 500px;
     margin-top: 15px;
   }
-
   .about_info {
     width: 80%;
     margin-right: 40px;
   }
-
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 799px) {
   .sampleFlex {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: green;
     margin: 10px;
-    flex-wrap: nowrap;
   }
-}
 
+}
 
 @media screen and (min-width: 800px) {
-  .project_item img {
-    flex: 33.33%;
-    padding: 10px;
+  .project_item {
+    display: inline-flex;
   }
+
 }
 
-
 @media screen and (min-width: 900px) {
-  .about  {
+  .about , .header_logo , .projects_align , .nav_list , footer {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
