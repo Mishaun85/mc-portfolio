@@ -1,20 +1,19 @@
-.about , .project_item , .sample {
+.about , .projects_align , .project_item , .sample {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
-.project1 , .project2, .project3 {
-  order: 4;
-}
+/* mobile */
 
 @media screen and (max-width: 400px) {
   .project_item img {
     max-width: 90%;
     height: auto;
   }
-}
 
+/* landscape */
 
 @media screen and (min-width: 600px) {
   .about {
@@ -30,23 +29,6 @@
     width: 80%;
     margin-right: 40px;
   }
-}
-
-@media screen and (max-width: 799px) {
-  .sampleFlex {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    margin: 10px;
-  }
-
-}
-
-@media screen and (min-width: 800px) {
-  .project_item {
-    display: inline-flex;
-  }
-
 }
 
 @media screen and (min-width: 900px) {

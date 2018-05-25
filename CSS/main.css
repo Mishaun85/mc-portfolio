@@ -11,6 +11,8 @@ h1 {
   font-size: 1.5em;
 }
 
+/* header */
+
 .header_logo img {
   max-width: 200px;
   width: 100%;
@@ -25,10 +27,13 @@ h1 {
   margin-bottom: 30px;
 }
 
+/* links */
+
 a {
   text-decoration: none;
 }
 
+/* navigation */
 
 .nav_list {
   width: 100%;
@@ -42,9 +47,10 @@ a {
 .nav_item {
   list-style-type: none;
   display: inline;
-  padding: 20px;
+  padding: 10px;
 }
 
+/* about */
 
 .about img {
   display: block;
@@ -53,9 +59,29 @@ a {
   width: 60%;
 }
 
-.project_item img {
-  margin: 10px;
+/* projects */
+
+.project_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 20px 10px;
 }
+
+figure {
+  display: inline-block;
+}
+
+figure img {
+  vertical-align: top;
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+/* footer */
 
 .footer h1 {
   text-align: center;
