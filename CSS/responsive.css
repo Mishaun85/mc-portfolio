@@ -1,9 +1,10 @@
-.about , .projects_align , .project_item , .sample {
+.about , .projects , .project_item , .sample {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+
 
 /* mobile */
 

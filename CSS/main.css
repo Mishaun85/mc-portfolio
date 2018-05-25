@@ -60,19 +60,8 @@ a {
 
 /* projects */
 
-.project_item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 10px 20px 10px;
-}
-
-figure {
-  display: inline-block;
-}
-
-figure img {
-  vertical-align: top;
+.projects_align {
+  margin: 0 10px 10px 10px;
 }
 
 figcaption {
